@@ -1,1 +1,1 @@
-script that run a C file through a processor
+script that generate the assembler code for C code and save it in an output file.
