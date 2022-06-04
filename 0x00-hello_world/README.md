@@ -1,1 +1,1 @@
-script that generate the assembler code for C code and save it in an output file.
+script that compiles a C file and create an executable named cisfun.
