@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Enter point
+ * print_alphabet - Enter point
  *
  * Return: Always 0 (Success)
  */
