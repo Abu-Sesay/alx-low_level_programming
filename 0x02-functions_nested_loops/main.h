@@ -1,2 +1,2 @@
-void print_alphabet(void);
+void main(void);
 
