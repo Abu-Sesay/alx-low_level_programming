@@ -3,8 +3,7 @@
 
 int _putchar(char c);
 int _isupper(int c);
-int main(int c);
-int mul(int a, int b);
+int _isdigit(int c){}
 int print_numbers(void);
 int _fizzbuzz(void);
 
