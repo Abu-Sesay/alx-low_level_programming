@@ -3,6 +3,6 @@
 
 int _isdigit(int c);
 int _isupper(int c);
-int FizzBuzz(void);
+int _fizz_buzz(void);
 
 #endif
