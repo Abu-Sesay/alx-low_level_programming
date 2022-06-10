@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- * main - check the code
  * _isupper - Enter point
  * @c: character to be checked
  *
@@ -10,7 +9,6 @@
  */
 int _isupper(int c)
 {
-
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
@@ -19,5 +17,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	
 }
