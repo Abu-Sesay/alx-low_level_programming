@@ -2,19 +2,20 @@
 #include <stdio.h>
 
 /**
- * print_number - print the numbers since 0 up to 9
- * _putchar - gives out the value of int x
- *
- * Return: The numbers since 0 up to 9
+ * print_number - Enter point
+ * main - Enter point
+ * 
+ * Return: Always 0.
+ *_putchar - print character from 0 to 9
  */
-void print_numbers(void)
+int print_number(void)
 {
-	int x;
-
-	for (x = 0; x <= 9; x++)
+	int i;
+	
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(x + '0');
+		_putchar(i + '0');
 	}
 	_putchar('\n');
-	
+	return (0);
 }

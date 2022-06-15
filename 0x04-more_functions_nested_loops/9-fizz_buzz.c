@@ -1,12 +1,11 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * _fizzbuzz - checks if character is fizz or buzz or bothe
+ * main - Enter point
  *
  * Return: Always 0 (Success)
  */
-int _fizzbuzz(void)
+int main(void)
 {
 	int i;
 
@@ -20,6 +19,8 @@ int _fizzbuzz(void)
 		{
 			printf("Fizz ");
 		}
+		else if (i == 100)
+			printf("Buzz");
 		else if (i % 5 == 0)
 		{
 			printf("Buzz ");

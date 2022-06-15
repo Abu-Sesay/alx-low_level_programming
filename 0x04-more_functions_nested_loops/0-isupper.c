@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - Enter point
- * @c: the character to check
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isupper - Enter point
+ * @c: character to be checked
+ *
+ * Return: Always 0.
  */
-int main(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
