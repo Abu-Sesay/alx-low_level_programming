@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - Enter point
  *
@@ -10,9 +11,9 @@ int print_alphabet(void)
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(n);
+		_putchar(n);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
