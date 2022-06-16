@@ -4,15 +4,13 @@
 
 /**
  * main - Enter point
- *
+ * - Dora Korpar, 2015-10-19
+ * follewed by a new line, to the standard error.
  * Return: Always 1.
  */
-int main()
+int main(void)
 {
-	char a;
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 
-	a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-
-	putchar(a);
 	return (1);
 }
