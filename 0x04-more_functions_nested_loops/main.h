@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _isdigit(int c);
+int mul(int a, int b);
 int _isupper(int c);
 int _fizz_buzz(void);
 void print_numbers(void);
