@@ -23,7 +23,7 @@ void more_numbers(void)
 				if (j == 49 && k == 52)
 				{
 					break;
-				}				
+				}
 			}
 		}
 		_putchar('\n');
