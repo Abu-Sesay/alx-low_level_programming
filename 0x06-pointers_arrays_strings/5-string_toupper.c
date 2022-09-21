@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - The function to convert to upper
+ * @s: chr pointer
  * Return: chr
  */
 char *string_toupper(char *s)
